@@ -1,0 +1,149 @@
+Date : 2024-10-03 14:46:20
+Directory : c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib
+Total : 86 files,  8573 codes, 183 comments, 823 blanks, all 9579 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         85 |      8,572 |        183 |        823 |      9,578 |
+| JSON     |          1 |          1 |          0 |          0 |          1 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                        | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                           |         86 |      8,573 |        183 |        823 |      9,579 |
+| . (Files)                                                                                                                                   |          1 |         30 |          0 |          5 |         35 |
+| core                                                                                                                                        |          8 |        111 |          0 |         17 |        128 |
+| core\common                                                                                                                                 |          1 |         10 |          0 |          3 |         13 |
+| core\common\widgets                                                                                                                         |          1 |         10 |          0 |          3 |         13 |
+| core\error                                                                                                                                  |          2 |          8 |          0 |          2 |         10 |
+| core\routes                                                                                                                                 |          1 |         14 |          0 |          3 |         17 |
+| core\secrets                                                                                                                                |          1 |          5 |          0 |          1 |          6 |
+| core\theme                                                                                                                                  |          2 |         64 |          0 |          6 |         70 |
+| core\utils                                                                                                                                  |          1 |         10 |          0 |          2 |         12 |
+| features                                                                                                                                    |         77 |      8,432 |        183 |        801 |      9,416 |
+| features\auth                                                                                                                               |          8 |      1,105 |          9 |        104 |      1,218 |
+| features\auth\presentation                                                                                                                  |          8 |      1,105 |          9 |        104 |      1,218 |
+| features\auth\presentation\pages                                                                                                            |          6 |        958 |          7 |         90 |      1,055 |
+| features\auth\presentation\widgets                                                                                                          |          2 |        147 |          2 |         14 |        163 |
+| features\data                                                                                                                               |          3 |         48 |          3 |         10 |         61 |
+| features\data (Files)                                                                                                                       |          2 |         40 |          3 |          7 |         50 |
+| features\data\user                                                                                                                          |          1 |          8 |          0 |          3 |         11 |
+| features\home                                                                                                                               |         66 |      7,279 |        171 |        687 |      8,137 |
+| features\home (Files)                                                                                                                       |          5 |        632 |          4 |         48 |        684 |
+| features\home\Entities                                                                                                                      |         19 |        383 |          1 |         64 |        448 |
+| features\home\models                                                                                                                        |          1 |          0 |         47 |          9 |         56 |
+| features\home\pages                                                                                                                         |         41 |      6,264 |        119 |        566 |      6,949 |
+| features\home\pages\categorias de gastos                                                                                                    |          2 |        191 |          0 |         17 |        208 |
+| features\home\pages\components                                                                                                              |         16 |      2,615 |         63 |        203 |      2,881 |
+| features\home\pages\components\forms                                                                                                        |          8 |      1,051 |         16 |         93 |      1,160 |
+| features\home\pages\components\lists                                                                                                        |          8 |      1,564 |         47 |        110 |      1,721 |
+| features\home\pages\gastos                                                                                                                  |          2 |        290 |          0 |         24 |        314 |
+| features\home\pages\production                                                                                                              |          3 |        500 |         14 |         52 |        566 |
+| features\home\pages\puchases                                                                                                                |          3 |        473 |          4 |         40 |        517 |
+| features\home\pages\recipes                                                                                                                 |          8 |        915 |         20 |        109 |      1,044 |
+| features\home\pages\recipes (Files)                                                                                                         |          1 |        394 |         13 |         32 |        439 |
+| features\home\pages\recipes\dialogs                                                                                                         |          2 |        308 |          2 |         26 |        336 |
+| features\home\pages\recipes\services                                                                                                        |          5 |        213 |          5 |         51 |        269 |
+| features\home\pages\roles                                                                                                                   |          1 |         56 |          2 |         11 |         69 |
+| features\home\pages\sales                                                                                                                   |          4 |      1,005 |         12 |         88 |      1,105 |
+| features\home\pages\stocks                                                                                                                  |          2 |        219 |          4 |         22 |        245 |
+| features\home\pages\stocks\products                                                                                                         |          1 |        110 |          1 |         11 |        122 |
+| features\home\pages\stocks\raw_materials                                                                                                    |          1 |        109 |          3 |         11 |        123 |
++---------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                                    | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\core\common\widgets\loader.dart                                           | Dart     |         10 |          0 |          3 |         13 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\core\error\exceptions.dart                                                | Dart     |          4 |          0 |          1 |          5 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\core\error\failures.dart                                                  | Dart     |          4 |          0 |          1 |          5 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\core\routes\app_routes.dart                                               | Dart     |         14 |          0 |          3 |         17 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\core\secrets\app_secrets.dart                                             | Dart     |          5 |          0 |          1 |          6 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\core\theme\app_palette.dart                                               | Dart     |         12 |          0 |          2 |         14 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\core\theme\theme.dart                                                     | Dart     |         52 |          0 |          4 |         56 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\core\utils\show_snackbar.dart                                             | Dart     |         10 |          0 |          2 |         12 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\auth\presentation\pages\login_page.dart                          | Dart     |        190 |          2 |         19 |        211 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\auth\presentation\pages\login_supabase.dart                      | Dart     |        192 |          2 |         19 |        213 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\auth\presentation\pages\send_invitation_link.dart                | Dart     |        180 |          0 |          9 |        189 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\auth\presentation\pages\send_login_link.dart                     | Dart     |        159 |          2 |         18 |        179 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\auth\presentation\pages\signup_page.dart                         | Dart     |        181 |          0 |         15 |        196 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\auth\presentation\pages\splash_page.dart                         | Dart     |         56 |          1 |         10 |         67 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\auth\presentation\widgets\add_field.dart                         | Dart     |         96 |          1 |          8 |        105 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\auth\presentation\widgets\auth_field.dart                        | Dart     |         51 |          1 |          6 |         58 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\data\test.json                                                   | JSON     |          1 |          0 |          0 |          1 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\data\user\user_data.dart                                         | Dart     |          8 |          0 |          3 |         11 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\data\user_functions.dart                                         | Dart     |         39 |          3 |          7 |         49 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\categoria.dart                                     | Dart     |          6 |          0 |          2 |          8 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\client.dart                                        | Dart     |         11 |          0 |          3 |         14 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\empleado.dart                                      | Dart     |          6 |          0 |          2 |          8 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\insumo.dart                                        | Dart     |         10 |          0 |          2 |         12 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\medida.dart                                        | Dart     |          8 |          0 |          2 |         10 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\planta.dart                                        | Dart     |          8 |          0 |          2 |         10 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\produced_products.dart                             | Dart     |         36 |          0 |          4 |         40 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\product.dart                                       | Dart     |         21 |          0 |          3 |         24 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\production.dart                                    | Dart     |          0 |          0 |          2 |          2 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\producto.dart                                      | Dart     |         16 |          0 |          2 |         18 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\producto_seleccionado.dart                         | Dart     |          6 |          0 |          3 |          9 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\products.dart                                      | Dart     |         14 |          0 |          3 |         17 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\proveedor.dart                                     | Dart     |          8 |          0 |          2 |         10 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\raw_materials.dart                                 | Dart     |         14 |          0 |          3 |         17 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\receta.dart                                        | Dart     |         10 |          0 |          2 |         12 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\recipe.dart                                        | Dart     |         24 |          0 |          4 |         28 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\sales.dart                                         | Dart     |        140 |          1 |         16 |        157 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\used_raw_material.dart                             | Dart     |         36 |          0 |          4 |         40 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\Entities\venta.dart                                         | Dart     |          9 |          0 |          3 |         12 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\drawer.dart                                                 | Dart     |        334 |          1 |         24 |        359 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\factory.dart                                                | Dart     |         87 |          2 |          9 |         98 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\home.dart                                                   | Dart     |         59 |          1 |          8 |         68 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\layout.dart                                                 | Dart     |         17 |          0 |          4 |         21 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\models\recipe_model.dart                                    | Dart     |          0 |         47 |          9 |         56 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\categorias de gastos\expenses_categories_page.dart    | Dart     |        145 |          0 |         10 |        155 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\categorias de gastos\expenses_categories_service.dart | Dart     |         46 |          0 |          7 |         53 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\forms\categoria_form.dart                  | Dart     |         75 |          1 |         10 |         86 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\forms\empleado_form.dart                   | Dart     |        123 |          1 |         12 |        136 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\forms\insumo_form.dart                     | Dart     |        166 |          4 |         15 |        185 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\forms\medida_form.dart                     | Dart     |         95 |          1 |         10 |        106 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\forms\planta_form.dart                     | Dart     |        101 |          1 |          9 |        111 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\forms\producto_form.dart                   | Dart     |        239 |          4 |         15 |        258 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\forms\proveedor_form.dart                  | Dart     |        113 |          1 |         12 |        126 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\forms\receta_form.dart                     | Dart     |        139 |          3 |         10 |        152 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\lists\categoria_list.dart                  | Dart     |        227 |          8 |         17 |        252 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\lists\empleado_list.dart                   | Dart     |        200 |          6 |         14 |        220 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\lists\insumo_list.dart                     | Dart     |        198 |          6 |         14 |        218 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\lists\medida_list.dart                     | Dart     |        182 |          4 |         14 |        200 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\lists\planta_list.dart                     | Dart     |        131 |          7 |          9 |        147 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\lists\producto_list.dart                   | Dart     |        313 |          3 |         19 |        335 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\lists\proveedor_list.dart                  | Dart     |        189 |          6 |         14 |        209 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\components\lists\receta_list.dart                     | Dart     |        124 |          7 |          9 |        140 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\gastos\expenses_page.dart                             | Dart     |        246 |          0 |         17 |        263 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\gastos\expenses_service.dart                          | Dart     |         44 |          0 |          7 |         51 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\production\production_page.dart                       | Dart     |        296 |          0 |         22 |        318 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\production\production_service.dart                    | Dart     |        104 |         12 |         20 |        136 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\production\recipe_production_page.dart                | Dart     |        100 |          2 |         10 |        112 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\puchases\puchase_dialog.dart                          | Dart     |        128 |          0 |         14 |        142 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\puchases\puchase_page.dart                            | Dart     |        295 |          4 |         17 |        316 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\puchases\puchases_services.dart                       | Dart     |         50 |          0 |          9 |         59 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\recipes\dialogs\product_picker_dialog.dart            | Dart     |        151 |          1 |         13 |        165 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\recipes\dialogs\raw_materials_picker_dialog.dart      | Dart     |        157 |          1 |         13 |        171 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\recipes\recipes_view.dart                             | Dart     |        394 |         13 |         32 |        439 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\recipes\services\produced_products_service.dart       | Dart     |         63 |          2 |         14 |         79 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\recipes\services\products_service.dart                | Dart     |         12 |          0 |          3 |         15 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\recipes\services\raw_material_service.dart            | Dart     |         11 |          0 |          4 |         15 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\recipes\services\recipe_service.dart                  | Dart     |         60 |          1 |         14 |         75 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\recipes\services\used_raw_materials_service.dart      | Dart     |         67 |          2 |         16 |         85 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\roles\roles_based_page.dart                           | Dart     |         56 |          2 |         11 |         69 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\sales\invoice_screen.dart                             | Dart     |        113 |          0 |          5 |        118 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\sales\sales_history_screen.dart                       | Dart     |        247 |          1 |         27 |        275 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\sales\sales_page.dart                                 | Dart     |        433 |          3 |         33 |        469 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\sales\sales_service.dart                              | Dart     |        212 |          8 |         23 |        243 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\stocks\products\product_stock.dart                    | Dart     |        110 |          1 |         11 |        122 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\pages\stocks\raw_materials\raw_material_stock_page.dart     | Dart     |        109 |          3 |         11 |        123 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\features\home\router_configuration.dart                                   | Dart     |        135 |          0 |          3 |        138 |
+| c:\Users\juan-\OneDrive\Desktop\netxelapp-jose\netxelapp-jose\lib\main.dart                                                                 | Dart     |         30 |          0 |          5 |         35 |
+| Total                                                                                                                                       |          |      8,573 |        183 |        823 |      9,579 |
++---------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

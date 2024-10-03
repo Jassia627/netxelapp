@@ -1,0 +1,76 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:mocktail/mocktail.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:netxelapp/features/auth/presentation/pages/signup_page.dart';
+
+// Mock classes
+class MockSupabaseClient extends Mock implements SupabaseClient {}
+class MockGoTrueClient extends Mock implements GoTrueClient {}
+class MockAuthResponse extends Mock implements AuthResponse {}
+class MockSession extends Mock implements Session {}
+class MockUser extends Mock implements User {}
+
+void main() {
+  // Definición de variables
+  late MockSupabaseClient mockSupabaseClient;
+  late MockGoTrueClient mockAuthClient;
+  late MockSession mockSession;
+  late MockUser mockUser;
+  late SignupPage signupPage;
+
+  // Configuración inicial (SetUp)
+  setUp(() {
+    mockSupabaseClient = MockSupabaseClient();
+    mockAuthClient = MockGoTrueClient();
+    mockSession = MockSession();
+    mockUser = MockUser();
+    signupPage = const SignupPage();
+
+    // Configura el mock para devolver el mock del cliente de autenticación (auth)
+    when(() => mockSupabaseClient.auth).thenReturn(mockAuthClient);
+  });
+
+  // Prueba de Registro exitoso con credenciales válidas
+  test('Registro_Cp01 - Registro correcto con datos válidos', () async {
+    // Configura el mock para devolver un usuario y una sesión válidos
+    when(() => mockUser.id).thenReturn('new_user_id');
+    when(() => mockSession.accessToken).thenReturn('valid_token');
+    when(() => mockSession.user).thenReturn(mockUser);
+
+    // Simula un registro exitoso
+    when(() => mockAuthClient.signUp(
+          email: any(named: 'email'),
+          password: any(named: 'password'),
+        )).thenAnswer((_) async => AuthResponse(session: mockSession));
+
+    // Llama al método de registro con credenciales válidas
+    final result = await mockAuthClient.signUp(
+      email: 'newuser@example.com',
+      password: 'newpassword123',
+    );
+
+    // Valida los resultados
+    expect(result.session?.accessToken, equals('valid_token'));
+    expect(result.session?.user?.id, equals('new_user_id'));
+  });
+
+  // Prueba de Registro fallido cuando el correo ya está registrado
+  test('Registro_Cp02 - Error al registrar un usuario ya existente', () async {
+    // Simula un error en el registro (correo ya registrado)
+    when(() => mockAuthClient.signUp(
+          email: any(named: 'email'),
+          password: any(named: 'password'),
+        )).thenThrow(AuthException('Correo ya registrado'));
+
+    // Llama al método de registro con un correo ya existente
+    try {
+      await mockAuthClient.signUp(
+        email: 'existinguser@example.com',
+        password: 'password123',
+      );
+    } catch (e) {
+      // Verifica que se lanzó la excepción correcta
+      expect(e, isA<AuthException>());
+    }
+  });
+}
